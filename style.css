@@ -1,0 +1,54 @@
+:root{
+    font-size: 16px;
+}
+
+.navbar-light .navbar-toggler,.navbar-light .navbar-toggler:focus {
+    border: none ;
+    box-shadow: none;
+
+}
+
+.menu{
+    width: 992px    ;
+}
+.nav-link.dropdown-toggle.show{
+    font-weight: bold; 
+}
+.primary-menu li{
+    font-size: 18px;
+    font-weight: 500;  
+}
+.secnd-menu li{
+    font-size: 14px;
+    font-weight: 500;  
+}
+.container{
+    max-width: 1170px;
+}
+
+.font-small{
+    font-size: 10px; 
+}
+.btn{
+    padding: 13px 25px ;
+}
+.btn-primary,.btn-primary:hover{
+    background-color: #ffbc0d;
+    border: none;
+    color: black 
+}
+footer a{
+    text-decoration: none;
+    color :#292929;
+    font-size: 16px; 
+
+}
+ul{
+    list-style: none;
+}
+
+@media screen and (min-width: 992px) {
+    h2{
+        font-size: 36px ;
+    }
+  }
